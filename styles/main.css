@@ -1,0 +1,26 @@
+div {
+  background-color: #ffffff;
+  padding: 200px;
+}
+
+h1 {
+  color: #9caeb2;
+  font-family: Verdana;
+  font-size: 16px;
+}
+
+h2 {
+  color: #9caeb2;
+  font-family: courier;
+  font-size: 12px;
+}
+
+ul {
+  color: #000000;
+  font-size: 10px;
+  font-family: Helvetica;
+}
+
+body {
+  background: url('https://unsplash.com/photos/eBDdgbM5dSo'), center, fixed;
+}
