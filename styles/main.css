@@ -1,3 +1,7 @@
+body {
+    background-color: #000;
+}
+
 h1 {
   color: #50575e;
   font-family: Courier;
@@ -6,16 +10,16 @@ h1 {
 
 h2 {
   color: #50575e;
-  font-family: Verdana;
-  font-size: 30px;
+  font-family: Courier;
+  font-size: 24px;
+}
+
+ul {
+    color: #fff;
 }
 
 a {
-  color: #000000;
-  font-family: Tahoma;
+  color: #fff;
+  font-family: Courier;
   font-size: 18px;
-}
-
-body {
-  background-image: url('blog-background.jpg'), center, fixed;
 }
