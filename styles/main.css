@@ -1,8 +1,9 @@
 .header {
-  background-color: #ffffff;
+  background-color: #000000;
   width: 200px;
   height: 100px;
   position: center;
+  margin: 60px;
 }
 
 h1 {
