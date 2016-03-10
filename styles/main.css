@@ -1,6 +1,5 @@
 .container {
-  padding: 0, 10px;
-  margin: 0, auto;
+
 
 }
 
@@ -61,14 +60,14 @@
 }
 
 .content {
-  padding-top: 30px;
+  padding-top: 10px;
   position: bottom;
   position: center;
 }
 
 .content li {
   display: inline;
-  padding: 40px;
+  margin: 40px;
 }
 
 .content li a {
@@ -81,4 +80,3 @@
 .content li a:hover {
   color: #dcdcdc;
 }
-
