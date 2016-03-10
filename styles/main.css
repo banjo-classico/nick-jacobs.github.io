@@ -1,0 +1,89 @@
+* {
+  border: 1px solid red;
+  }
+
+.container {
+  max-width: 100%;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* NAVBAR------------------------------------------*/
+.nav {
+  background-color: #fff;
+}
+
+.nav ul {
+  margin: auto;
+}
+
+.nav li {
+  color: #333333;
+  font-size: 1.5rem;
+  display: inline-block;
+  margin: 1rem;
+}
+
+#links {
+  float: left;
+}
+
+#icons {
+  float: right;
+}
+
+/*hero------------------------------------------*/
+
+.hero {
+  background-color: #333;
+  max-width: 100%;
+  height: 50rem;
+
+}
+
+
+.title {
+  border: 2px solid blue;
+  margin-top: 10rem;
+}
+
+.title p {
+  color: #fff;
+  font-size: 8rem;
+  font-weight: 600;
+  position:relative;
+  margin: auto;
+  text-align: center;
+}
+
+.title img {
+  max-width: 20rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* PROJECTS________________________________________*/
+
+.project {
+  background-color: #000;
+  color: #fff;
+}
+
+
+
+/* BLOGS____________________________________________*/
+
+.blog {
+  background-color: #dcdcdc;
+  max-width: 100%;
+  color: #333333;
+}
+
+.blog a {
+  display: inline-block;
+  position: relative;
+  margin: 5rem;
+  text-decoration: none;
+  font-size: 2rem;
+  color: #333333;
+}
