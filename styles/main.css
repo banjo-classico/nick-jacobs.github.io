@@ -1,7 +1,3 @@
-* {
-  border: 1px solid red;
-  }
-
 .container {
   max-width: 100%;
   font-family: 'Raleway', sans-serif;
@@ -10,10 +6,12 @@
 /* NAVBAR------------------------------------------*/
 .nav {
   background-color: #fff;
+  padding: 1rem 0 1rem;
 }
 
 .nav ul {
   margin: auto;
+
 }
 
 .nav li {
@@ -34,30 +32,37 @@
 /*hero------------------------------------------*/
 
 .hero {
-  background-color: #333;
-  max-width: 100%;
-  height: 50rem;
+  background-image: url("http://static.tumblr.com/acab8ff64e86438d0f371cfafe1515a0/xnbxehq/kCPnm56v0/tumblr_static_60q8g9457ww8g0gc4s0sws48s.png");
+  background-size: cover;
+  height: 60rem;
+  border: 1px solid #333;
 
 }
 
 
 .title {
-  border: 2px solid blue;
-  margin-top: 10rem;
+  margin-top: 20rem;
+  background-color: #fff;
+  border: .5rem solid #333;
+  width: 60rem;
+  height: 10rem;
+  padding: 2rem 3rem 3rem 3rem;
 }
 
 .title p {
-  color: #fff;
+
+  color: #333;
   font-size: 8rem;
   font-weight: 600;
-  position:relative;
+  position: absolute;
   margin: auto;
   text-align: center;
+
 }
 
 .title img {
   max-width: 20rem;
-  display: block;
+  display: none;
   margin-left: auto;
   margin-right: auto;
 }
@@ -65,8 +70,8 @@
 /* PROJECTS________________________________________*/
 
 .project {
-  background-color: #000;
-  color: #fff;
+  background-color: #fff;
+  color: #333;
   text-align: center;
   padding: 8rem 0 7rem;
 }
@@ -76,16 +81,28 @@
 /* BLOGS____________________________________________*/
 
 .blog {
-  background-color: #dcdcdc;
+  background-color: #fff;
   max-width: 100%;
-  color: #333333;
+  color: #333;
+  text-align: center;
+  border-top: 1px solid #333;
 }
 
 .blog a {
   display: inline-block;
   position: relative;
-  margin: 5rem;
+  margin: 1rem 5rem 1rem 5rem;
   text-decoration: none;
   font-size: 2rem;
-  color: #333333;
+  color: #333;
+}
+
+.blog a:hover {
+  color: #dcdcdc;
+}
+
+.blogs h2 {
+  font-size: 4rem;
+  padding-top: 2rem;
+
 }
