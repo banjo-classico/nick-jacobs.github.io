@@ -87,7 +87,7 @@ i:hover {
   background-color: #fff;
   max-width: 100%;
   color: #333;
-  text-align: center;
+  display: flex;
 }
 
 .blogs {
@@ -101,6 +101,7 @@ i:hover {
   margin: 1rem 5rem 1rem 5rem;
   text-decoration: none;
   font-size: 2rem;
+  justify-content: space-around;
   color: #333;
 }
 
