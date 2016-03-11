@@ -44,6 +44,7 @@ i:hover {
   background-size: cover;
   height: 60rem;
   border: 1px solid #333;
+  display: flex;
 
 }
 
@@ -53,18 +54,18 @@ i:hover {
   background-color: #fff;
   border: .5rem solid #333;
   width: 46%;
-  height: 10rem;
+  height: 18%;
   padding: 2rem 3rem 3rem 3rem;
 }
 
 .title p {
 
   color: #333;
-  font-size: 500%;
+  font-size: 6rem;
   font-weight: 600;
-  position: absolute;
+  position: relative;
   margin: auto;
-  text-align: center;
+  text-align: left;
 
 }
 
@@ -112,5 +113,18 @@ i:hover {
 .blogs h2 {
   font-size: 4rem;
   padding-top: 2rem;
+
+}
+
+@media (max-width: 400px) {
+
+  p {
+
+    font-size: 3em;
+  }
+
+  .project i {
+    margin-bottom: 10px;
+  }
 
 }
