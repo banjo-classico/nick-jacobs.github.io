@@ -109,7 +109,7 @@ i {
     z-index: 1;
     opacity: 0.2;
     background-image: url('http://static.tumblr.com/acab8ff64e86438d0f371cfafe1515a0/xnbxehq/kCPnm56v0/tumblr_static_60q8g9457ww8g0gc4s0sws48s.png');
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: 50% 0;
     -ms-background-size: cover;
     -o-background-size: cover;
@@ -118,3 +118,12 @@ i {
     background-size: cover;
 }
 
+/*IMAGES_______________________________*/
+
+img {
+  margin: auto;
+  max-width: 22%;
+  display: inline;
+  border: 4px solid #dcdcdc;
+
+}
