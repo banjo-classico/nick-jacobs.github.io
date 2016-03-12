@@ -1,72 +1,120 @@
+
 .container {
-  padding: 0, 10px;
-  margin: 0, auto;
-
-}
-
-.navbar {
-  background-color: #fff;
-  margin: 0;
-  padding: 10px 0;
-}
-
-.navbar li {
-  color: #333333;
+  max-width: 100%;
   font-family: 'Raleway', sans-serif;
-  font-size: 12px;
-  font-weight: 600;
-  display: inline;
-  margin: 10px;
+  background-color: #fff;
+  z-index: 2;
 }
 
-.navbar li a {
+/* NAVBAR------------------------------------------*/
+.nav {
+  background-color: #fff;
+  padding: 2rem 1.5rem 2rem 0;
+  border-bottom: 1px solid #333;
+}
+
+.nav ul {
+  margin: auto;
+}
+
+.nav li {
+  font-size: 1.5rem;
+  display: inline-block;
+  margin: 1rem;
+}
+
+.nav a {
   text-decoration: none;
   color: #333333;
 }
 
-.navbar li a:hover {
+.nav a:hover {
   color: #dcdcdc;
 }
 
-.titleimg {
-  background: url("blogheader.jpg") center, fixed;
-  height: 100px;
-  background-size: cover;
-}
-
-.title h2 {
-  color: #fff;
-  font-family: 'Raleway', sans-serif;
-  font-size: 3em;
-  padding: 20px;
-}
-
-.content {
-  margin-left: 100px;
-  margin-right: 100px;
-}
-
-.content h2 {
+i {
   color: #333333;
-  font-family: 'Raleway', sans-serif;
-  font-size: 2.5em;
-
 }
 
-.content h3 {
+.nav i:hover {
+  color: #dcdcdc;
+}
+
+#links {
+  float: left;
+}
+
+#icons {
+  float: right;
+}
+
+/* SIDEBAR___________________________________*/
+
+.sidebar {
+  background-color: #fff;
+  border-right: 1px solid #dcdcdc;
+  margin-top: 3%;
+  position: relative;
+  z-index: 2;
+  padding-left: 1%;
+}
+
+.sidebar h2 {
+  color: #dcdcdc;
+}
+
+.sidebar a {
+  text-decoration: none;
   color: #333333;
-  font-family: 'Raleway', sans-serif;
-  font-size: 2em
+  font-size: 2rem;
+  display: block;
+  padding: 4%;
 }
 
-.content p {
-  color: #333333;
-  font-family: 'Raleway', sans-serif;
-  font-size: 1em;
+.sidebar ul {
+  text-align: center;
+  text-decoration: none;
 }
 
-.content li {
-  color: #333333;
-  font-family: 'Raleway', sans-serif;
-  font-size: 1em;
+.sidebar li {
+  padding: 3%;
+  list-style: none;
 }
+
+/* MAIN BLOG CONTENT_________________________*/
+
+.blog-main {
+  background-color: #fff;
+  margin-top: 3%;
+  position: relative;
+  z-index: 2;
+}
+
+
+/*BACKGROUND IMG_________________________*/
+
+.main {
+  position: relative;
+
+}
+
+.main:after {
+  content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.2;
+    background-image: url('http://static.tumblr.com/acab8ff64e86438d0f371cfafe1515a0/xnbxehq/kCPnm56v0/tumblr_static_60q8g9457ww8g0gc4s0sws48s.png');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+

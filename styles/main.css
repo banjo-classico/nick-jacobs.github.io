@@ -15,10 +15,18 @@
 }
 
 .nav li {
-  color: #333333;
   font-size: 1.5rem;
   display: inline-block;
   margin: 1rem;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #333333;
+}
+
+.nav a:hover {
+  color: #dcdcdc;
 }
 
 i {
@@ -96,6 +104,7 @@ i:hover {
   padding: 15% 0 15% 0;
 }
 
+
 .blog a {
   display: inline-block;
   position: relative;
@@ -124,7 +133,7 @@ i:hover {
   }
 
   .project i {
-    margin-bottom: 10px;
+    justify-content: space-around;
   }
 
 }
