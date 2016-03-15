@@ -1,3 +1,5 @@
+
+}
 .container {
   max-width: 100%;
   font-family: 'Raleway', sans-serif;
@@ -39,6 +41,12 @@ i:hover {
 
 #links {
   float: left;
+  margin-left: -5%;
+}
+
+#links li {
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
 
 #icons {
@@ -48,35 +56,69 @@ i:hover {
 /*hero------------------------------------------*/
 
 .hero {
-  background-image: url("http://static.tumblr.com/acab8ff64e86438d0f371cfafe1515a0/xnbxehq/kCPnm56v0/tumblr_static_60q8g9457ww8g0gc4s0sws48s.png");
+  background-color: #fff;
   background-size: cover;
-  height: 60rem;
-  border: 1px solid #333;
+  height: 600px;
   display: flex;
 
 }
 
 
 .title {
-  margin-top: 20rem;
+  display: block;
+  margin-top: 15rem;
   background-color: #fff;
-  border: .5rem solid #333;
-  width: 46%;
-  height: 18%;
-  padding: 2rem 3rem 3rem 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  max-width: 37%;
+  padding: 2rem 3rem 3rem 1rem;
+  clear: both;
 }
 
 .title p {
 
-  color: #333;
-  font-size: 6rem;
-  font-weight: 600;
+  font-weight: 300;
   position: relative;
   margin: auto;
-  text-align: left;
-
+  float: right;
 }
 
+.title h2 {
+  float: right;
+}
+
+
+.logo {
+  color: #333;
+  font-family: 'Dr Sugiyama', cursive;
+  font-size: 9rem;
+  font-weight: 600;
+  position: absolute;
+  float: left;
+}
+
+
+#subtitle {
+  text-align: left;
+  color: #dcdcdc;
+  font-size: 2rem;
+  margin-top: -30px;
+}
+
+.clearfix {
+  clear:both;
+}
+
+/*__ABOUT ME____________________________________________*/
+
+.about {
+  padding: 100px;
+  text-align: center;
+  max-width: 100%;
+  background-color: #333;
+  color: #fff;
+}
 
 
 /* PROJECTS________________________________________*/

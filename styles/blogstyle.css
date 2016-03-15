@@ -81,6 +81,14 @@ i {
   list-style: none;
 }
 
+.me {
+  height: 55rem;
+  opacity: 0.5;
+  background-image: url('me.jpg');
+  background-size: 35rem;
+  margin-top: -7%;
+}
+
 /* MAIN BLOG CONTENT_________________________*/
 
 .blog-main {
@@ -116,6 +124,7 @@ i {
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 /*IMAGES_______________________________*/
