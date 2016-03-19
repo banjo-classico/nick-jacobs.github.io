@@ -159,17 +159,14 @@ i:hover {
   background-color: #fff;
   max-width: 100%;
   color: #333;
+  text-align: center;
   display: flex;
-}
+  margin-bottom: 10%;
 
-.blogs {
-  border-top: 2px solid #333333;
-  padding: 20% 0 20% 0;
 }
-
 
 .blog a {
-  display: inline-block;
+  display: block;
   position: relative;
   margin: 1rem 5rem 1rem 5rem;
   text-decoration: none;
@@ -182,11 +179,15 @@ i:hover {
   color: #dcdcdc;
 }
 
-.blogs h2 {
+.blog h2 {
   font-size: 6rem;
   font-family: 'Sacramento', cursive;
-  padding-top: 2rem;
+  padding: 10% 0;
+  border-top: 2px solid #dcdcdc;
+}
 
+.blog h3 {
+  text-decoration: underline;
 }
 
 /*__FOOTER________________________________________________________*/
