@@ -116,6 +116,8 @@ i:hover {
 }
 
 .about h2 {
+  font-size: 6rem;
+  font-family: 'Sacramento', cursive;
   padding: 3%;
 }
 
@@ -132,10 +134,21 @@ i:hover {
 /* PROJECTS________________________________________*/
 
 .project {
+  max-width: 100%;
   background-color: #fff;
   color: #333;
   text-align: center;
-  padding: 20% 0 20% 0;
+}
+
+.project h2 {
+  font-family: 'Sacramento', cursive;
+  font-size: 6rem;
+  padding: 10% 0 10% 0;
+}
+
+.projects {
+  font-family: 'Raleway', sans-serif;
+  padding: 30% 0 60% 0;
 }
 
 
@@ -170,7 +183,8 @@ i:hover {
 }
 
 .blogs h2 {
-  font-size: 4rem;
+  font-size: 6rem;
+  font-family: 'Sacramento', cursive;
   padding-top: 2rem;
 
 }
@@ -182,11 +196,15 @@ i:hover {
   height: 65px;
   background-color: #dcdcdc;
   color: #333333;
-  font-family: 'Dr Sugiyama', cursive;
   text-align: center;
 }
 
 #footer h4 {
-  font-size: 3rem;
+  font-size: 2rem;
   padding-top: 20px;
+}
+
+#letter {
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 3rem;
 }
