@@ -95,6 +95,11 @@ i {
   position: relative;
   z-index: 2;
 }
+.blog-main p {
+  padding-right: 5%;
+}
+
+
 
 
 /*BACKGROUND IMG_________________________*/
