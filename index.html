@@ -6,146 +6,84 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
-    <link type="text/css" rel="stylesheet" href="styles/main.css">
+    <link type="text/css" rel="stylesheet" href="styles/main_v2.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Dr+Sugiyama' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Sacramento' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Fredericka+the+Great' rel='stylesheet' type='text/css'>
+    <script src='scripts/main.js'></script>
 
   </head>
   <body>
-    <div class="section nav">
-      <div class="container">
-        <div class="row">
-          <div class="nav twelve columns">
-            <ul id="links">
-              <li><a href="#about">ABOUT</a></li>
-              <li><a href="#projects">PORTFOLIO</a></li>
-              <li><a href="#blogs">BLOG</a></li>
-              <li><a href="">CONTACT</a></li>
-            </ul>
-            <ul id="icons">
-              <li><a href="http://github.com/nick-jacobs/"><i class="fa fa-github fa-2x"></i></a></li>
-              <li><a href="http://nz.linkedin.com/in/nickmjacobs"><i class="fa fa-linkedin fa-2x"></i></a></li>
-              <li><a href="mailto:nick.mjac@gmail.com"><i class="fa fa-envelope-square fa-2x"></i></a></li>
-            </ul>
-          </div>
+    <div class="page-wrap">
+      <header>
+        <div class="header-position">
+         <div class="fixed">
+          <h1>nj</h1>
+          <nav class="site-nav">
+              <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#projects">projects</a></li>
+                <li><a href="#blogs">blogs</a></li>
+              </ul>
+          </nav>
+          <a href="#contacts">+contact me</a>
         </div>
-      </div>
-    </div>
-
-    <div class="section hero">
-      <div class="container">
-        <div class="row">
-          <div class="twelve columns">
-              <div class="title">
-                <h2 id="logo">nj</h2>
-                <h2>NICK JACOBS</h2>
+       </div>
+      </header>
+      <div class="section-wrap">
+          <section id="about" class="about">
+              <div class="flex flex--center">
+                <div class="col-1 push-right">
+                  <h3>Nick is a fledgling web developer, honing his web-ninja skills <br> at Enspiral Dev Academy in Wellington, NZ</h3>
+                  <p>Everyone throw your hands in the air!</p>
+                </div>
               </div>
-              <div id="subtitle"><p>web developer | adventurer</p></div>
-          </div>
-        </div>
+          </section>
+          <section class="jumbo">
+          </section>
+          <section id="projects" class="projects">
+              <h1>projects</h1>
+              <div class="col-50">
+                  <div id="project1" class="col-4"><h3>JS Racer</h3></div>
+                  <div id="project2" class="col-4"><h3>Calculator</h3></div>
+                  <div id="project3" class="col-4"><h3>Quote Generator</h3></div>
+              </div>
+          </section>
+          <section id="blogs" class="blogs">
+            <div class="blog-positioner">
+            <h1>blogs</h1>
+              <div class="col-50">
+                  <div class="cultural">
+                      <ul>
+                          <li><a>Shareef's Chat</a></li>
+                          <li><a>Time & Habits</a></li>
+                          <li><a>Emotional Intelligence</a></li>
+                          <li><a>Meditation</a></li>
+                          <li><a>Daily Mindfulness</a></li>
+                          <li><a>Self Confidence</a></li>
+                          <li><a>Control</a></li>
+                          <li><a>Motivation</a></li>
+                          <li><a>Connecting</a></li>
+                      </ul>
+                  </div>
+                  <div class="technical">
+                     <ul>
+                          <li><a>HTML/CSS Part I</a></li>
+                          <li><a>HTML/CSS Part II</a></li>
+                          <li><a>Design to Web</a></li>
+                          <li><a>Javascript Basics</a></li>
+                          <li><a>Problem Solving</a></li>
+                          <li><a>JS Language</a></li>
+                      </ul>
+                  </div>
+                </div>
+              </div>
+          </section>
+          <footer id="contacts" class="contacts">
+            <p>Contact me</p>
+          </footer>
       </div>
     </div>
-
-    <div class="section about" id="about">
-      <div class="container">
-        <div class="row">
-          <div class="twelve columns">
-            <h2>A little about me...</h2>
-            <h4>Past</h4>
-            <p>
-              I'm a proud Wellingtonian, but have been living in Auckland or other parts of the world for a few years now.
-              I studied first at Victoria, and then later at University of Auckland, doing a Masters of Speech Language Therapy Practice.
-            </p>
-            <h4>Present</h4>
-            <p>
-              I've begun an adventure in web development!
-            </p>
-            <p>
-              I was lacking passion for my work and my career and have been looking for something to really get my teeth into. I wanted something with creativity, flexibility and career growth, and realised web development was all that. Once I found Enspiral Dev Academy and saw what an inclusive and supportive culture there was, I knew that's what I was going to do.
-            </p>
-            <h4>Future</h4>
-            <p  id="lastabout">
-              There are so many exciting possibilities out there that will surely shift and change as time goes on. I'm happy putting my head down and focusing on gaining knowledge and developing skills, and then I'll be excited to take the next step.
-            </p>
-            <img src="styles/me.jpg">
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="section project" id="projects">
-      <div class="container">
-        <div class="row">
-          <div class="twelve comlumns">
-            <h2>Ima make some things soon...</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="one-third column">
-            <div class="projects">
-              <h3>Javascript Racer Game</h3>
-              <a href="http://nick-jacobs.github.io/javascript-racer/"><img id="bobshake" src="images/bobshake.gif"></a>
-            </div>
-          </div>
-
-          <div class="one-third column">
-            <div class="projects">
-              <h3>Project 2</h3>
-              <i class="fa fa-bomb fa-5x"></i>
-            </div>
-          </div>
-
-          <div class="one-third column">
-            <div class="projects">
-              <h3>Project 3</h3>
-              <i class="fa fa-rocket fa-5x"></i>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="section blog" id="blogs">
-      <div class="container">
-        <div class="row">
-          <div class="twelve columns">
-            <h2>Reflections and Thoughts</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="one-half column">
-            <h3>Cultural</h3>
-            <a href="blog/c1-reflection-blog.html">Shareef's Chat</a>
-            <a href="blog/c1-time-and-habits-blog.html">Time & Habits</a>
-            <a href="blog/c2-emotional-intelligence.html">Emotional Intelligence</a>
-            <a href="blog/c3-meditation-process.html">Meditation</a>
-            <a href="blog/c4-daily-mindfulness.html">Daily Mindfulness</a>
-            <a href="blog/c5-self-confidence.html">Self Confidence</a>
-            <a href="blog/c6-control.html">Control</a>
-            <a href="blog/c7-motivation.html">Motivation</a>
-            <a href="blog/c8-connecting.html">Connecting</a>
-          </div>
-
-          <div class="one-half column">
-            <h3>Technical</h3>
-            <a href="blog/t2-html-css-dom-p1.html">HTML/CSS Part I</a>
-            <a href="blog/t2-html-css-dom-p2.html">HTML/CSS Part II</a>
-            <a href="blog/t3-design-to-web-blog.html">Design to Web</a>
-            <a href="blog/t4-javascript-basics.html">Javascript Basics</a>
-            <a href="blog/t5-problem-solving.html">Problem Solving</a>
-            <a href="blog/t6-js-language.html">Javascript Language</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="section footer">
-            <div id="footer">
-              <h4>Brought to you by the letters <span id="letter">N</span> and <span id="letter">J</span></h4>
-            </div>
-    </div>
-
   </body>
-</html>
