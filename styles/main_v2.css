@@ -21,7 +21,6 @@ body {
   display: block;
   width: 90%;
   float: right;
-
 }
 
 header {
@@ -35,7 +34,7 @@ header {
 
 header h1 {
   font-size: 8rem;
-  color: #222;
+  color: #333;
   font-weight: bold;
 }
 
@@ -60,13 +59,13 @@ header h1 {
   text-align: right;
 }
 
-.site-nav li{
+.site-nav li, .contacts li{
   text-decoration: none;
   color: #999;
   padding: 5px;
 }
 
-.site-nav a {
+.site-nav a, .contacts a{
   text-decoration: none;
   color: #999;
 }
@@ -90,10 +89,31 @@ header h1 {
 
 .projects {
   background-color: lightblue;
-  padding: 40px;
+  padding: 100px 40px 100px 40px;
 }
 
+.divider {
+  background-color: #333;
+}
 
+.wrap {
+  height: 150px;
+  color: #fff;
+  padding: 30px;
+
+}
+
+.wrap #quote {
+  font-size: 3rem;
+  font-family: cursive;
+}
+
+.wrap #author {
+  font-size: 2rem;
+  font-style: italic;
+  text-align: right;
+  margin-right: 100px;
+}
 
 
 .blogs {
@@ -132,3 +152,14 @@ ul {
   border: 2px solid black;
   margin-top: 50px;
 }
+
+.contacts {
+  padding: 50px;
+  font-size: 2rem;
+}
+
+.contacts ul {
+  display: inline-block;
+}
+
+
