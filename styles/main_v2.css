@@ -12,6 +12,14 @@ body {
   border: 1px solid red;
 }*/
 
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 .page-wrap{
   display: block;
 }
@@ -46,7 +54,6 @@ header h1 {
 }
 
 .header-position a {
-  text-decoration: none;
   color: #999;
   text-align: right;
 }
@@ -66,7 +73,6 @@ header h1 {
 }
 
 .site-nav a, .contacts a{
-  text-decoration: none;
   color: #999;
 }
 
@@ -93,6 +99,10 @@ header h1 {
 }
 .projects p, .blogs p {
   margin-top: -10px;
+}
+
+.projects a {
+  color: #333;
 }
 
 .divider {
@@ -122,10 +132,10 @@ header h1 {
 .blogs {
   background-color: hotpink;
   padding: 50px;
+
 }
 
 .blogs a {
-  text-decoration: none;
   color: #fff;
   font-size: 2rem;
 }
@@ -138,22 +148,19 @@ header h1 {
 .cultural, .technical {
   display: flex;
   flex-direction: column;
-}
-
-ul {
-  list-style: none;
+  padding-bottom: 50px;
 }
 
 .col-50 {
   display: flex;
   justify-content: space-around;
-
+  align-items: center;
 }
 
 .col-4 {
   width: 250px;
   height: 250px;
-  border: 2px solid black;
+  /* border: 2px solid #000; */
   margin-top: 50px;
 }
 
@@ -166,4 +173,10 @@ ul {
   display: inline-block;
 }
 
+img {
+  max-height: 50%;
+}
 
+#bobshake, #calc {
+  margin-top: 30px;
+}
