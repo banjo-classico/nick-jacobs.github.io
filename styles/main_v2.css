@@ -31,6 +31,7 @@ a {
   float: right;
 }
 
+
 header {
   text-align: center;
   position: fixed;
@@ -179,4 +180,79 @@ img {
 
 #bobshake, #calc {
   margin-top: 30px;
+}
+
+//______________________________BLOG MENU_______________________________//
+
+.bg-wrapper {
+  width: 100%;
+  position: absolute;
+}
+
+.bg-wrapper a {
+  color: #999;
+}
+
+.top {
+  height: 200px;
+  background-color: hotpink;
+}
+
+.blog-menu-heading, .blog-subheading, .blog-blurb {
+  width: 60%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.blog-blurb {
+  margin-bottom: 5%;
+}
+
+.blog-subheading {
+  margin-top: -20px;
+}
+
+.hme-footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: #fff;
+}
+
+//______________________________BLOG CONTENT_________________________//
+
+.blog-heading {
+  font-size: 2.5rem;
+}
+
+.blog-content {
+  width: 100%
+  position: absolute;
+  text-align: left;
+  padding-top: 100px;
+}
+
+.blog-content .row {
+  width: 70%;
+  margin: auto;
+}
+
+.blog-text h4{
+  font-size: 2rem;
+  margin-top: 50px;
+}
+
+.contact-btn, .blog-btn, .portfolio-btn{
+  color: #999;
+  background-color: #fff;
+  padding: 20px 0 0 0;
+}
+
+h5 {
+  font-size: 2rem;
+}
+
+.contact-btn {
+  float: right;
+  margin-right: -100px;
 }
