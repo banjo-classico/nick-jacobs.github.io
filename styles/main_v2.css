@@ -196,14 +196,26 @@ img {
   color: #999;
 }
 
-.top {
+.top-menu {
   height: 200px;
   background-color: hotpink;
   display: flex;
   align-items: flex-end;
 }
 
-.top p {
+.top-blog {
+  height: 100px;
+  background-color: aquamarine;
+  margin-top: -100px;
+}
+
+.top-cult {
+  background-color: tomato;
+  height: 100px;
+  margin-top: -100px;
+}
+
+.top-menu p {
   color: #fff;
   font-size: 3rem;
   margin-left: 10px;
@@ -253,6 +265,10 @@ img {
   margin-top: 50px;
 }
 
+.blog-text:last-child {
+  margin-bottom: 200px;
+}
+
 .contact-btn, .blog-btn, .portfolio-btn{
   color: #999;
   background-color: #fff;
@@ -268,3 +284,14 @@ img {
   margin-right: -100px;
 }
 
+.img-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.img-wrap img {
+  height: 400px;
+  margin: 15px;
+}
