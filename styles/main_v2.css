@@ -91,6 +91,9 @@ header h1 {
   background-color: lightblue;
   padding: 100px 40px 100px 40px;
 }
+.projects p, .blogs p {
+  margin-top: -10px;
+}
 
 .divider {
   background-color: #333;
@@ -118,7 +121,7 @@ header h1 {
 
 .blogs {
   background-color: hotpink;
-  padding: 20px;
+  padding: 50px;
 }
 
 .blogs a {
@@ -134,6 +137,7 @@ header h1 {
 
 .cultural, .technical {
   display: flex;
+  flex-direction: column;
 }
 
 ul {
