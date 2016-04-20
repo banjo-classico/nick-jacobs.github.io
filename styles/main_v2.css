@@ -152,10 +152,13 @@ header h1 {
   padding-bottom: 50px;
 }
 
+.cultural h4, .technical h4 {
+  color: #333;
+}
+
 .col-50 {
   display: flex;
   justify-content: space-around;
-  align-items: center;
 }
 
 .col-4 {
@@ -196,6 +199,14 @@ img {
 .top {
   height: 200px;
   background-color: hotpink;
+  display: flex;
+  align-items: flex-end;
+}
+
+.top p {
+  color: #fff;
+  font-size: 3rem;
+  margin-left: 10px;
 }
 
 .blog-menu-heading, .blog-subheading, .blog-blurb {
@@ -248,7 +259,7 @@ img {
   padding: 20px 0 0 0;
 }
 
-h5 {
+.index-btn {
   font-size: 2rem;
 }
 
@@ -256,3 +267,4 @@ h5 {
   float: right;
   margin-right: -100px;
 }
+
