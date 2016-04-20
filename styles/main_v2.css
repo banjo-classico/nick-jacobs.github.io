@@ -114,12 +114,15 @@ header h1 {
   height: 150px;
   color: #fff;
   padding: 30px;
+  width: 70%;
+  margin: auto;
 
 }
 
 .wrap #quote {
   font-size: 3rem;
-  font-family: cursive;
+  font-family: sans-serif;
+  color: #dcdcdc;
 }
 
 .wrap #author {
