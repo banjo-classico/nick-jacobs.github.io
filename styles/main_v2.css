@@ -8,10 +8,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%; }
 
-/* {
-  border: 1px solid red;
-}*/
-
 ul {
   list-style: none;
 }
@@ -27,7 +23,7 @@ a {
 
 .section-wrap {
   display: block;
-  width: 90%;
+  max-width: 90%;
   float: right;
 }
 
@@ -36,8 +32,8 @@ header {
   text-align: center;
   position: fixed;
   background-color: #fff;
-  max-height: 100%;
-  width: 10%;
+  height: 100%;
+  width: 135px;
   float: left;
 }
 
@@ -111,9 +107,9 @@ header h1 {
 }
 
 .wrap {
-  height: 150px;
+  height: 25%;
   color: #fff;
-  padding: 30px;
+  padding: 40px 30px 30px 30px;
   width: 70%;
   margin: auto;
 
@@ -129,7 +125,7 @@ header h1 {
   font-size: 2rem;
   font-style: italic;
   text-align: right;
-  margin-right: 100px;
+  margin-right: 7%;
 }
 
 
@@ -187,6 +183,28 @@ img {
 #bobshake, #calc {
   margin-top: 30px;
 }
+
+//_____________________MEDIA QUERIES_______________________//
+
+@media (max-width: 775px) {
+  header {
+    display: none;
+  }
+
+  .site-nav {
+    width: 100px;
+  }
+
+  .wrap #quote {
+    font-size: 2rem;
+  }
+
+  .wrap #author {
+    font-size: 1.5rem;
+  }
+}
+
+
 
 //______________________________BLOG MENU_______________________________//
 
